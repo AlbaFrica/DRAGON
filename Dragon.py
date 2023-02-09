@@ -1,5 +1,7 @@
 import turtle
 t = turtle.Turtle()
+u = turtle.Turtle()
+r = turtle.Turtle()
 from operator import truediv
 
 #body
