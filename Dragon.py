@@ -111,12 +111,12 @@ t.end_fill()
 
 #spots
 
-#wing 
+#wing(r)
 
 #2nd arm
 
 #headband piece
 
-#face #u
+#face(u)
 
 turtle.Screen().exitonclick()
