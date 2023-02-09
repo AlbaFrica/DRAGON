@@ -97,7 +97,7 @@ t.forward(25)
 t.end_fill()
 
 #unicorn horn
-t.color("black", "tea")
+t.color("black", "olive")
 t.begin_fill()
 t.right(90)
 t.forward(100)
