@@ -1,7 +1,7 @@
 import turtle
-t = turtle.Turtle()
-u = turtle.Turtle()
-r = turtle.Turtle()
+t = turtle.Turtle() #Funhouse
+u = turtle.Turtle() #Jenaka
+r = turtle.Turtle() #
 from operator import truediv
 
 #body
@@ -102,6 +102,7 @@ t.begin_fill()
 t.right(90)
 t.forward(100)
 t.end_fill()
+
 #horns 
 
 #neck puff
@@ -110,12 +111,12 @@ t.end_fill()
 
 #spots
 
-#wing
+#wing 
 
 #2nd arm
 
 #headband piece
 
-#face
+#face #u
 
 turtle.Screen().exitonclick()
