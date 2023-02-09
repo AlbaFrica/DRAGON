@@ -112,7 +112,30 @@ t.end_fill()
 #spots
 
 #wing(r)
-
+r.left(180)
+r.forward(30)
+r.right(90)
+r.forward(60)
+r.right(90)
+r.forward(80)
+r.left(100)
+r.forward(30)
+r.left(50)
+r.forward(25)
+r.right(80)
+r.forward(10)
+r.left(160)
+r.forward(10)
+r.right(50)
+r.forward(40)
+r.left(150)
+r.forward(30)
+r.right(130)
+r.forward(30)
+r.left(160)
+r.forward(60)
+r.right(90)
+r.forward(20)
 #2nd arm
 
 #headband piece
