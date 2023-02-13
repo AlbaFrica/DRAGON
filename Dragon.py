@@ -124,8 +124,6 @@ t.forward(5)
 t.right(80)
 t.forward(90)
 
-#neck puff
-
 #first arm
 
 #spots
@@ -155,6 +153,43 @@ r.left(160)
 r.forward(60)
 r.right(90)
 r.forward(20)
+
+#neck puff
+r.left(90)
+r.forward(33)
+r.left(90)
+r.forward(120)
+r.left(120)
+r.forward(5)
+r.right(60)
+r.forward(15)
+r.right(60)
+r.forward(10)
+r.right(25)
+r.forward(7)
+r.left(140)
+r.forward(10)
+r.right(60)
+r.forward(15)
+r.right(30)
+r.forward(15)
+r.right(50)
+r.forward(20)
+r.right(15)
+r.forward(10)
+r.left(170)
+r.forward(15)
+r.right(80)
+r.forward(15)
+r.right(70)
+r.forward(20)
+r.right(40)
+r.forward(20)
+r.right(40)
+r.forward(20)
+r.right(50)
+r.forward(30)
+
 #2nd arm
 
 #headband piece
