@@ -122,7 +122,10 @@ t.forward(32.78)
 t.left(33)
 t.forward(5)
 t.right(80)
-t.forward(90)
+t.forward(60)
+t.left(160)
+t.forward(63)
+t.right(90)
 
 #first arm
 
