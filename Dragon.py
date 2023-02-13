@@ -97,7 +97,7 @@ t.forward(25)
 t.end_fill()
 
 #unicorn horn
-t.begin_fill()
+t.color("black", "Olive")#
 t.forward(180)
 t.right(90)
 t.forward(60)
@@ -107,18 +107,22 @@ t.left(90)
 t.forward(25)
 t.right(90)
 t.forward(15)
-t.right(20)
-t.color("black", "olive")
-t.forward(90)
-t.left(155)
-t.forward(90)
-t.left(105)
-t.forward(45)
-t.right(180)
-t.forward(45)
-t.end_fill()
+t.right(20)#20
+t.forward(90)#90
+t.left(158)#155
+t.begin_fill()
+t.forward(87)#90
+t.left(99)#105
+t.forward(32.78)
+t.right(180) #180
+t.end_fill()#
+t.forward(32.78)
 
-#horns(t)
+#horns 
+t.left(33)
+t.forward(5)
+t.right(80)
+t.forward(90)
 
 #neck puff
 
