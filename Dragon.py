@@ -9,8 +9,8 @@ t.color("black", "pink")
 t.begin_fill()
 
 draw = 0;
-while draw <= 2:
-
+while draw <= 1:
+    draw = draw + 1 
     t.forward(125)
     t.left(90)
     t.forward(180)
@@ -30,15 +30,15 @@ while draw <= 2:
     t.forward(100)
     t.left(90)
     t.forward(60)#50
-    #t.left(90)
-    #t.forward(30)
+    t.left(90)
+    t.forward(30)
     t.end_fill()
-    break
 
 #tail
 t.color("black", "light green")
+t.backward(30)
 t.begin_fill()
-t.right(70)
+t.right(160)#70
 t.forward(300)
 t.right(170)
 t.forward(325)
@@ -119,19 +119,26 @@ t.end_fill()#
 t.forward(32.78)
 
 #horns 
+t.color("black", "red")
+t.begin_fill()
 t.left(33)
 t.forward(5)
 t.right(80)
 t.forward(60)
 t.left(160)
-t.forward(63)
+t.forward(60)
 t.right(90)
-
+t.right(75)
+t.forward(90)
+t.left(158)
+t.forward(100)
+t.end_fill()
 #first arm
 
 #spots
 
 #wing(r)
+r.color("black", "turquoise")
 r.left(180)
 r.forward(30)
 r.right(90)
@@ -156,6 +163,7 @@ r.left(160)
 r.forward(60)
 r.right(90)
 r.forward(20)
+r.end_fill
 
 #neck puff
 r.left(90)
