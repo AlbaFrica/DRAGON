@@ -133,9 +133,6 @@ t.forward(90)
 t.left(158)
 t.forward(100)
 t.end_fill()
-#first arm
-
-#spots
 
 #wing(r)
 r.color("black", "turquoise")
@@ -208,10 +205,63 @@ r.forward(20)
 r.right(50)
 r.forward(10)
 r.end_fill()
-#2nd arm
-
-#headband piece
 
 #face(u)
+u.forward(125)
+u.left(90)
+u.forward(20)
+u.pensize(1)
+u.pencolor('Black')
+u.color("white")
+u.begin_fill()
+u.penup()
+u.forward(205)
+u.pendown()
+u.forward(20)
+u.right(90)
+u.forward(20)
+u.right(90)
+u.forward(20)
+u.right(90)
+u.forward(20)
+
+u.end_fill()
+
+u.right(90)
+u.forward(15)
+u.right(90)
+u.forward(15)
+u.pencolor('black')
+u.color("black")
+u.begin_fill()
+u.right(90)
+u.forward(10)
+u.right(90)
+u.forward(10)
+u.right(90)
+u.forward(10)
+u.right(90)
+u.forward(10)
+
+u.end_fill()
+u.penup()
+
+#mouth
+u.pencolor('Black')
+u.penup()
+u.forward(20)
+u.right(90)
+u.forward(15)
+u.pendown()
+u.left(90)
+u.forward(25)
+u.right(90)
+u.forward(30)
+u.right(90)
+u.forward(30)
+u.right(50)
+u.forward(20)
+
+u.penup()
 
 turtle.Screen().exitonclick()
