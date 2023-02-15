@@ -97,7 +97,7 @@ t.forward(25)
 t.end_fill()
 
 #unicorn horn
-t.color("black", "Olive")#
+t.color("black", "turquoise")
 t.forward(180)
 t.right(90)
 t.forward(60)
@@ -144,6 +144,7 @@ r.forward(30)
 r.right(90)
 r.forward(60)
 r.right(90)
+r.begin_fill()
 r.forward(80)
 r.left(100)
 r.forward(30)
@@ -163,12 +164,18 @@ r.left(160)
 r.forward(60)
 r.right(90)
 r.forward(20)
-r.end_fill
+r.end_fill()
 
 #neck puff
+r.color("pink", "pink")
+r.begin_fill()
 r.left(90)
 r.forward(33)
 r.left(90)
+r.end_fill()
+
+r.color("black", "light yellow")
+r.begin_fill()
 r.forward(120)
 r.left(120)
 r.forward(5)
@@ -200,7 +207,7 @@ r.right(40)
 r.forward(20)
 r.right(50)
 r.forward(10)
-
+r.end_fill()
 #2nd arm
 
 #headband piece
