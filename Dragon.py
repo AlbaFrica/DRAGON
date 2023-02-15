@@ -191,7 +191,7 @@ r.forward(20)
 r.right(40)
 r.forward(20)
 r.right(50)
-r.forward(30)
+r.forward(10)
 
 #2nd arm
 
